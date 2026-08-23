@@ -144,7 +144,7 @@ export default function Background() {
 			/>
 			{/* Glowing Particles Canvas */}
 			<canvas
-				ref={canvasRef}
+				//ref={canvasRef}
 				className="absolute inset-0 pointer-events-none"
 			/>
 		</div>

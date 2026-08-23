@@ -4,6 +4,7 @@ import DSAimage from "../assets/DSAimage.png";
 import DBMSimage from "../assets/DBMS.png";
 import OSimage from "../assets/OSimage.png";
 import Firebase from "../assets/Firebase.svg";
+import MLimage from "../assets/machine_learning.png";
 import {
 	SiHtml5,
 	SiJavascript,
@@ -203,6 +204,10 @@ const skillCategories = [
 			{
 				name: "Computer Networks",
 				icon: "🌐",
+			},
+			{
+				name: "Machine Learning",
+				icon: <img src={MLimage} className="h-10 w-10 object-contain" />,
 			},
 		],
 	},

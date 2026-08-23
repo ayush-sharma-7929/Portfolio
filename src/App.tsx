@@ -7,17 +7,17 @@ import Experience from "./components/Experience.tsx";
 import Navbar from "./components/Navbar.tsx";
 import Skills from "./components/Skills.tsx";
 function App() {
-  return (
-    <>
-      <Background />
-      <Navbar />
-      <Home />
-      <About />
-      <Experience />
-      <Skills />
-      <Contact />
-    </>
-  );
+	return (
+		<>
+			<Background />
+			<Navbar />
+			<Home />
+			<About />
+			<Experience />
+			<Skills />
+			<Contact />
+		</>
+	);
 }
 
 export default App;
