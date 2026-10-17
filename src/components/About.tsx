@@ -83,7 +83,7 @@ export default function About() {
 
 							<div className="rounded-2xl border border-cyan-400/20 bg-cyan-500/10 p-5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400/40">
 								<h3 className="mb-3 text-lg font-semibold text-cyan-300">
-									🤖 AI Enthusiast
+									🤖 AI Enthusiast and Engineering
 								</h3>
 
 								<p className="leading-7 text-gray-300">

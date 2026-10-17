@@ -5,6 +5,7 @@ import DBMSimage from "../assets/DBMS.png";
 import OSimage from "../assets/OSimage.png";
 import Firebase from "../assets/Firebase.svg";
 import MLimage from "../assets/machine_learning.png";
+import Kubernetes from "../assets/kubernetes.svg";
 import {
 	SiHtml5,
 	SiJavascript,
@@ -150,6 +151,16 @@ const skillCategories = [
 			{
 				name: "Docker",
 				icon: <FaDocker className="text-4xl text-blue-600" />,
+			},
+			{
+				name: "Kubernetes",
+				icon: (
+					<img
+						src={Kubernetes}
+						alt="Kubernetes"
+						className="text-9xl text-blue-500"
+					/>
+				),
 			},
 		],
 	},
