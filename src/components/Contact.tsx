@@ -137,7 +137,7 @@ export default function Contact() {
                 delay: index * 0.15,
               }}
               whileHover={{
-                x: 8,
+                scale: 1.02,
               }}
               className="group flex items-center gap-5 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl transition-all duration-300 hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)]"
             >
