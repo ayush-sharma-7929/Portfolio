@@ -61,7 +61,7 @@ export default function Experience() {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ duration: 0.5, delay: index * 0.1 }}
-							className="group relative rounded-2xl border border-white/10 bg-white/[0.02] p-8  transition-all duration-300 hover:border-cyan-500/40 hover:bg-white/[0.04]"
+							className="group relative rounded-2xl border border-white/10 bg-[#0b1216] p-8 shadow-lg shadow-black/40 transition-all duration-300 hover:border-cyan-500/40 hover:bg-[#0e171d]"
 						>
 							{/* Card Top Row */}
 							<div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">

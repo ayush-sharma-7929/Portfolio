@@ -52,7 +52,7 @@ export default function Projects() {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true }}
 							transition={{ duration: 0.5, delay: index * 0.1 }}
-							className="group relative rounded-2xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-300 hover:border-cyan-500/40 hover:bg-white/[0.04]"
+							className="group relative rounded-2xl border border-white/10 bg-[#0b1216] p-8 shadow-lg shadow-black/40 transition-all duration-300 hover:border-cyan-500/40 hover:bg-[#0e171d]"
 						>
 							<h3 className="flex items-center gap-2.5 text-2xl font-bold text-white transition-colors group-hover:text-cyan-400">
 								<FolderGit2 className="h-5 w-5 shrink-0 text-cyan-400" />
