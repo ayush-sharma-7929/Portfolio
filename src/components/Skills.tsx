@@ -18,6 +18,7 @@ import {
 	SiExpress,
 	SiMongodb,
 	SiMysql,
+	SiPostgresql,
 	SiHoppscotch,
 	SiPostman,
 	SiGithub,
@@ -115,6 +116,10 @@ const skillCategories = [
 			{
 				name: "SQL",
 				icon: <SiMysql className="text-4xl text-blue-500" />,
+			},
+			{
+				name: "PostgreSQL",
+				icon: <SiPostgresql className="text-4xl text-sky-500" />,
 			},
 			{
 				name: "Firebase",
